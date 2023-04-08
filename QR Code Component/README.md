@@ -24,7 +24,7 @@ Aqui você encontrará a minha resolução do desafio do QR Code component.
 
 #### Results preview
 
-![](./screenshots/results-grid.png)
+<img src="./screenshots/results-grid.png" width="600px">
 
 ### Links
 
@@ -47,7 +47,7 @@ Nesse simples projeto, eu repliquei conceitos e reforcei conhecimentos prévios,
 
 ### Continued development
 
-Esse desafio é considerado pela plataforma o inicial, e ele marca o início do meu aprendizado sobre tecnologias web. Pretendo me aprofundar mais nessa área de desenvolvimento, principalmente nas 3 ferramentas básicas, HTML, CSS e JavaScript.
+Esse desafio é considerado pela plataforma, o inicial, e ele marca o início do meu aprendizado sobre tecnologias web. Pretendo me aprofundar mais nessa área de desenvolvimento, principalmente nas 3 ferramentas básicas, HTML, CSS e JavaScript.
 
 ### Useful resources
 
