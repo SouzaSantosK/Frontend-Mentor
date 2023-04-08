@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--grayish-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+.card {
+  width: 350px;
+  background: var(--white);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.card:hover {
+  transform: translateY(-25px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: var(--dark-blue);
+}
+
+.card:hover .text-content h1 {
+  color: var(--white);
+}
+
+.card:hover .text-content p {
+  color: var(--light-gray);
+}
+
+.card img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.card .text-content {
+  margin: 25px auto 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card .text-content * {
+  margin: 0 20px;
+}
+
+.card .text-content h1 {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+
+.card .text-content p {
+  color: var(--grayish-blue);
+  line-height: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 380px;
+  }
+
+  .card .text-content h1 {
+    font-size: 27.2px;
+  }
+
+  .card .text-content p {
+    font-size: 18px;
+  }
+}
