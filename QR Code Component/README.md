@@ -26,18 +26,10 @@ Aqui você encontrará a minha resolução do desafio do QR Code component.
 
 ![](./screenshots/results-grid.png)
 
-<!-- #### Mobile result
-
-![](./screenshots/mobile.png)
-
-#### Active stats
-
-![](./screenshots/active-stats.png) -->
-
 ### Links
 
-<!-- - Solution URL: [Solution link]() -->
-<!-- - Live Site URL: [Live site]() -->
+- Frontend Mentor: [Solution link](https://www.frontendmentor.io/solutions/qr-code-component-challenge-with-html-and-css-flexbox-mobilefirst-C4PBAxWPPG)
+- Github pages: [Live site](https://souzasantosk.github.io/Frontend-Mentor/QR%20Code%20Component/)
 
 ## My process
 
