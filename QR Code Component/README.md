@@ -2,6 +2,8 @@
 
 Essa é uma resolução para o [desafio do QR Code Component do Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/QR%20Code%20Component/)
+
 ## Summary / Sumário
 
 - [Overview / Visão geral](#overview)
