@@ -2,6 +2,8 @@
 
 Essa é uma resolução para o [desafio do QR Code Component do Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/QR%20Code%20Component/)
+
 ## Summary / Sumário
 
 - [Overview / Visão geral](#overview)
@@ -24,18 +26,10 @@ Aqui você encontrará a minha resolução do desafio do QR Code component.
 
 ![](./screenshots/results-grid.png)
 
-<!-- #### Mobile result
-
-![](./screenshots/mobile.png)
-
-#### Active stats
-
-![](./screenshots/active-stats.png) -->
-
 ### Links
 
-<!-- - Solution URL: [Solution link]() -->
-<!-- - Live Site URL: [Live site]() -->
+- Frontend Mentor: [Solution link](https://www.frontendmentor.io/solutions/qr-code-component-challenge-with-html-and-css-flexbox-mobilefirst-C4PBAxWPPG)
+- Github pages: [Live site](https://souzasantosk.github.io/Frontend-Mentor/QR%20Code%20Component/)
 
 ## My process
 
