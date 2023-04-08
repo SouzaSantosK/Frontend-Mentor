@@ -2,7 +2,7 @@
 
 Essa é uma resolução para o [desafio do Product Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
-## [📃💻 Website view 🖱🖥](#)
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
 
 ## Table of contents
 
@@ -33,8 +33,8 @@ O usuário deve ser capaz de:
 
 ### Links
 
-- Solution URL: [Solution link](#)
-- Live Site URL: [Live site](#)
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/product-card-component-with-html-and-css-mobilefirst-grid-layout-f1kVK_G3wk)
+- Live Site URL: [Live site](https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
 
 ## My process
 
