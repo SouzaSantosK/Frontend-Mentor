@@ -16,7 +16,6 @@
 
 body {
   font-family: Outfit, sans-serif;
-  width: 100%;
   min-height: 100vh;
   background: var(--grayish-blue);
   display: flex;
