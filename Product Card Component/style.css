@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.5s ease-in-out !important;
+  transition: all 0.5s ease-in-out;
 }
 
 :root {
@@ -30,8 +30,8 @@ p {
 
 .card {
   display: grid;
-  grid-template-columns: 1fr;
   width: 350px;
+  grid-template-columns: 1fr;
   background: var(--white);
   border-radius: 10px;
   overflow: hidden;
@@ -113,7 +113,6 @@ p {
   justify-content: center;
   gap: 10px;
   cursor: pointer;
-  transition: all 0.2s ease;
 }
 
 .text-content h2:hover {

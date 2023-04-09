@@ -2,7 +2,7 @@
 
 Essa é uma resolução para o [desafio do Product Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
-## [📃💻 Website view 🖱🖥](#)
+## [📃💻 Website view 🖱🖥](#https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
 
 ## Table of contents
 
@@ -66,7 +66,7 @@ Nesse projeto, eu revisei alguns conceitos sobre posicionamento de texto, espaç
 
 ### Continued development
 
-Não sei em qual ordem esse desafio deveria estar, mas ele é considerado iniciante (newbie) pela plataforma, e que logo me chamou a atenção. Nesse desafio eu gostei bastante das animações que são possíveis fazer utilizando apenas o CSS, e pretendo aproveitar melhor essas ferramentas.
+Não sei em qual ordem esse desafio deveria estar, mas ele é considerado iniciante (newbie) pela plataforma, e que logo me chamou a atenção. Nesse desafio eu gostei bastante das animações e estilizações que o CSS nos permite fazer, e pretendo aproveitar melhor essas ferramentas.
 
 ### Useful resources
 

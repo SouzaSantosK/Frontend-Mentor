@@ -9,3 +9,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
 - [HTML / CSS ](#html-css)
   - [QR Code component](./QR%20Code%20Component/README.md)
   - [Product Card component](./Product%20Card%20Component/README.md)
+  - [NFT Card component](./NFT%20Card%20Component/README.md)
