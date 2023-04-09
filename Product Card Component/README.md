@@ -29,12 +29,12 @@ O usuário deve ser capaz de:
 
 ### Screenshot
 
-<img src="./screenshots/results-grid.png" width="600px">
+<img src="./screenshots/results-grid.png" style="max-width: 600px">
 
 ### Links
 
-- Solution URL: [Solution link](#)
-- Live Site URL: [Live site](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-card-component-with-html-and-css-mobilefirst-grid-layout-f1kVK_G3wk)
+- Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
 
 ## My process
 
@@ -48,7 +48,7 @@ O usuário deve ser capaz de:
 
 ### What I learned
 
-Nesse projeto, eu revisei alguns conceitos sobre posicionamento de texto, espaçamento entre elementos, e manipulação do sistema de grid. Optei por usar esse sistema por ser mais dinâmico e responsivo em relação ao flexbox (que também foi utilizado), e ser perfeito para a realização desse desafio.
+Nesse projeto, eu revisei alguns conceitos sobre posicionamento de texto, espaçamento entre elementos, e manipulação do sistema de grid. Optei por usar esse sistema por ser mais dinâmico e responsivo em relação ao flexbox (que também foi utilizado), e encaixar perfeitamente com o layout desse desafio.
 
 ```css
 .card {
@@ -66,14 +66,15 @@ Nesse projeto, eu revisei alguns conceitos sobre posicionamento de texto, espaç
 
 ### Continued development
 
-Não sei em qual ordem esse desafio deveria estar, mas ele é considerado iniciante (newbie) pela plataforma, e que logo me chamo a atenção. Nesse desafio eu gostei bastante das animações que são possíveis fazer utilizando apenas o CSS, e pretendo aproveitar melhor essas ferramentas
+Não sei em qual ordem esse desafio deveria estar, mas ele é considerado iniciante (newbie) pela plataforma, e que logo me chamou a atenção. Nesse desafio eu gostei bastante das animações que são possíveis fazer utilizando apenas o CSS, e pretendo aproveitar melhor essas ferramentas.
 
 ### Useful resources
 
-- [CSS Animations](https://css-tricks.com/almanac/properties/a/animation/) - Pequena introdução a criação de @keyframes para fazer animações em CSS.
+- [CSS Animations](https://css-tricks.com/almanac/properties/a/animation/) - Pequena introdução à criação de @keyframes para fazer animações em CSS.
 
 ## Author
 
 <!-- - Website - [@Kaua de Souza](#) -->
 
+- Github - [@SantosSouzaK](https://github.com/SouzaSantosK)
 - Frontend Mentor - [@Kauã de Souza](https://www.frontendmentor.io/profile/SouzaSantosK)
