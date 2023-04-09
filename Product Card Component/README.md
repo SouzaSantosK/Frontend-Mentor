@@ -2,7 +2,7 @@
 
 Essa é uma resolução para o [desafio do Product Card Component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
-## [📃💻 Website view 🖱🖥](#https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/Product%20Card%20Component/)
 
 ## Table of contents
 

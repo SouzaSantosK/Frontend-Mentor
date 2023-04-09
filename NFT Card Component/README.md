@@ -2,7 +2,7 @@
 
 Essa é uma resolução para o [desafio do NFT card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
-## [📃💻 Website view 🖱🖥](#)
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/NFT%20Card%20Component/)
 
 ## Summary / Sumário
 
@@ -15,7 +15,7 @@ Essa é uma resolução para o [desafio do NFT card component](https://www.front
   - [Continued development / Desenvolvimento contínuo](#continued-development)
   - [Useful resources / Recursos úteis](#useful-resources)
 - [Author / Autor](#author)
-  
+
 ## Overview
 
 Aqui você encontrará a minha resolução do desafio do NFT Card component.
@@ -35,8 +35,8 @@ O usuário deve ser capaz de:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
-- Live Site URL: [Github pages](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-card-component-html-and-css-mobile-first-pseudoelement-5iHwkLQxdL)
+- Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/NFT%20Card%20Component/)
 
 ## My process
 
