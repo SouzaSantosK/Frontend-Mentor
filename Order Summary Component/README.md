@@ -28,7 +28,7 @@ Aqui você encontrará a minha resolução do desafio do Order Summary Card Comp
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-with-html-and-css-cool-animation-for-desktop-sCtubA1tkB)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Order%20Summary%20Component/)
 
 ## My process
