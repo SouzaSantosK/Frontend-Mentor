@@ -27,7 +27,7 @@ Aqui você encontrará a minha resolução do desafio do Order Summary Card Comp
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3-column-card-component-with-html-css-and-hover-animations-th_V7PDlNR)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/3-Column%20Card%20Component/)
 
 ## My process
