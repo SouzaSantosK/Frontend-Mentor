@@ -17,7 +17,7 @@ Essa é uma resolução para o [desafio do 3-Column card component do Frontend M
 
 ## Overview
 
-Aqui você encontrará a minha resolução do desafio do Order Summary Card Component.
+Aqui você encontrará a minha resolução do desafio do 3-Column Card Component.
 
 ### Screenshot
 
