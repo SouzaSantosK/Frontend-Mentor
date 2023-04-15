@@ -13,7 +13,7 @@ Essa é uma resolução para o [desafio do Stats Card Component](https://www.fro
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author / Autor](#author)
+- [Author](#author)
 
 ## Overview
 
@@ -25,7 +25,7 @@ Aqui você encontrará a minha resolução do desafio do Stats Card component.
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-card-component-with-html-css-and-hover-animation-yNQ5yMU70u)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Stats%20Card%20Component/)
 
 ## My process
