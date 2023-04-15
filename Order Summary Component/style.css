@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+:root {
+  /* Primary Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral Colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Hover Color */
+  --bright-blue-hover: hsla(245, 75%, 52%, 0.6);
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: var(--pale-blue);
+}
+
+.wave {
+  top: 0;
+  left: 0;
+  z-index: -3;
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  margin: 20px;
+  overflow: hidden;
+  max-width: 375px;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+  background: rgb(245, 247, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(245, 247, 255, 1) 0%,
+    rgba(224, 232, 240, 1) 100%
+  );
+  border: 2px solid hsla(245, 75%, 52%, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-color: var(--bright-blue-hover);
+  /* background: rgb(245, 247, 255);
+  background: linear-gradient(
+    150deg,
+    rgba(245, 247, 255, 1) 50%,
+    rgba(56, 41, 224, 1) 100%
+  ); */
+}
+
+.card .hero-img {
+  width: 100%;
+}
+
+.card .card-text {
+  padding: 30px 35px;
+}
+
+.card .card-text > h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 20px;
+  color: var(--dark-blue);
+}
+
+.card .card-text > p {
+  line-height: 30px;
+  color: var(--desaturated-blue);
+}
+
+.card .signature-infos {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .signature-infos img {
+  width: 65px;
+}
+
+.card .signature-infos p {
+  line-height: 25px;
+  color: var(--desaturated-blue);
+}
+
+.card .signature-infos p strong {
+  display: flex;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.card .signature-infos a {
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--bright-blue);
+}
+
+.card .signature-infos a:hover {
+  color: var(--bright-blue-hover);
+}
+
+.buttons {
+  gap: 10px;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.buttons button {
+  border: none;
+  color: var(--very-pale-blue);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 0;
+  font-weight: 700;
+  border-radius: 10px;
+  background: var(--very-pale-blue);
+}
+
+.buttons .proceed-btn {
+  background: var(--bright-blue);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.buttons .proceed-btn:hover {
+  background: var(--bright-blue-hover);
+}
+
+.buttons .cancel-btn {
+  color: var(--desaturated-blue);
+}
+
+.buttons .cancel-btn:hover {
+  color: var(--dark-blue);
+}
+
+@media (max-width: 320px) {
+  .card .signature-infos {
+    row-gap: 15px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Moving wave animation */
+
+  .wave {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat no-repeat;
+    background-size: 1000px 250px;
+    animation: moveWave 10s linear infinite;
+  }
+
+  @keyframes moveWave {
+    0% {
+      background-position-x: 0;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+
+  /* Pulse circles animation */
+
+  .pulse-circle {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pulse-circle:nth-child(2) {
+    top: 0;
+    left: 0;
+  }
+
+  .pulse-circle:nth-child(3) {
+    bottom: 0;
+    right: 0;
+  }
+
+  .pulse-circle::before,
+  .pulse-circle::after {
+    content: "";
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 100%;
+    animation: pulse-ring 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+
+  .pulse-circle::before {
+    width: 1000px;
+    height: 1000px;
+    background-color: var(--bright-blue-hover);
+  }
+
+  .pulse-circle::after {
+    width: 1000px;
+    height: 1000px;
+    background-color: var(--bright-blue);
+    animation-delay: 0.2s;
+  }
+
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(0);
+    }
+    80%,
+    100% {
+      opacity: 0;
+    }
+  }
+}

@@ -6,15 +6,15 @@ Essa é uma resolução para o [desafio do QR Code Component do Frontend Mentor]
 
 ## Summary / Sumário
 
-- [Overview / Visão geral](#overview)
+- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process / Meu processo](#my-process)
-  - [Built with / Construido com...](#built-with)
-  - [What I learned / O que aprendi](#what-i-learned)
-  - [Continued development / Desenvolvimento contínuo](#continued-development)
-  - [Useful resources / Recursos úteis](#useful-resources)
-- [Author / Autor](#author)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 

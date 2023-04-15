@@ -6,14 +6,14 @@ Essa é uma resolução para o [desafio do Product Card Component](https://www.f
 
 ## Table of contents
 
-- [Overview / Visão geral](#overview)
+- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process / Meu processo](#my-process)
-  - [Built with / Construido com...](#built-with)
-  - [What I learned / O que aprendi](#what-i-learned)
-  - [Continued development / Desenvolvimento contínuo](#continued-development)
-  - [Useful resources / Recursos úteis](#useful-resources)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author / Autor](#author)
 
 ## Overview
