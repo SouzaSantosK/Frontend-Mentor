@@ -24,7 +24,7 @@ Aqui você encontrará a minha resolução do desafio do Single Price Grid Card 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-component-with-html-and-css-GnxM1IPMNI)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Single%20Price%20Grid%20Card%20Component/)
 
 ## My process
