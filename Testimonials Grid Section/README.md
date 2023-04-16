@@ -2,6 +2,8 @@
 
 Essa é uma resolução para o [desafio do Testimonial Grid Section do Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/Testimonials%20Grid%20Section/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -23,7 +25,7 @@ Aqui você encontrará a minha resolução do desafio do Testimonial Grid Sectio
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-html-and-css-hover-and-full-responsive-oCVenb-kS5)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Testimonials%20Grid%20Section/)
 
 ## My process
@@ -67,13 +69,13 @@ Nesse desafio aprofundei-me mais em como posicionar elementos usando o grid layo
 
 ```css
 .grid-board {
-  max-width: 1200px;
-  gap: 30px;
   display: grid;
+  max-width: 1200px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     "card-1 card-1 card-2 card-5"
     "card-3 card-4 card-4 card-5";
+  gap: 30px;
 }
 
 .card {
