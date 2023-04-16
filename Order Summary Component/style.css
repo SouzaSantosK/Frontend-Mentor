@@ -28,7 +28,6 @@ p {
 }
 
 body {
-  width: 100%;
   display: flex;
   overflow: hidden;
   min-height: 100vh;

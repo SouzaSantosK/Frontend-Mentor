@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+:root {
+  /* Primary Colors */
+  --moderate-violet: hsl(263, 55%, 52%);
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Neutral Colors */
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light-gray);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 60px 25px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.grid-board {
+  gap: 25px;
+  max-width: 600px;
+  display: flex; /* meio contraditório, mas é melhor do que utilizar grid-template-areas pra só uma coluna :/ */
+  flex-direction: column;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 10px;
+  color: var(--light-grayish-blue);
+  outline: 4px solid transparent;
+}
+
+.card:hover {
+  outline-color: #9f76e0;
+}
+
+.card > h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.card > p {
+  opacity: 70%;
+  line-height: 20px;
+}
+
+.card .user {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.user p {
+  opacity: 50%;
+}
+
+.user img {
+  border: 2px solid #9f76e0;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  max-width: 35px;
+}
+
+.card-1 {
+  background: var(--moderate-violet);
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 25px;
+  grid-area: card-1;
+}
+
+.card-1 p {
+  margin-right: 15px;
+}
+
+.card-2 {
+  background: var(--very-dark-grayish-blue);
+  grid-area: card-2;
+}
+
+.card-3 {
+  background: var(--white);
+  color: var(--very-dark-grayish-blue);
+  grid-area: card-3;
+}
+
+.card-4 {
+  background: var(--very-dark-blackish-blue);
+  grid-area: card-4;
+  padding: 32px 31px;
+}
+
+.card-5 {
+  background: var(--light-grayish-blue);
+  color: var(--very-dark-grayish-blue);
+  grid-area: card-5;
+}
+
+@media (min-width: 800px) {
+  .grid-board {
+    gap: 30px;
+    max-width: 950px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card-3 card-2"
+      "card-1 card-4"
+      "card-5 card-5";
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 14px;
+  }
+
+  .grid-board {
+    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card-1 card-1 card-2 card-5"
+      "card-3 card-4 card-4 card-5";
+  }
+
+  .grid-board:hover .card {
+    transform: unset;
+    box-shadow: unset;
+  }
+
+  .card > h2 {
+    font-size: 22px;
+  }
+
+  .card-1 {
+    transform: rotate(-3deg) translate(-25px, -20px);
+    background-size: 125px;
+    background-position: top right 85px;
+    box-shadow: hsla(263, 55%, 52%, 0.6) -5px -5px,
+      hsla(263, 55%, 52%, 0.3) -10px -10px;
+  }
+
+  .card-2 {
+    transform: rotate(2.5deg) translate(-15px, -40px);
+    box-shadow: hsla(217, 19%, 35%, 0.6) -5px -5px,
+      hsla(217, 19%, 35%, 0.3) -10px -10px;
+  }
+
+  .card-3 {
+    transform: rotate(1.3deg) translate(-15px, 50px);
+    box-shadow: hsl(0, 0%, 100%, 0.6) -5px 5px, hsl(0, 0%, 100%, 0.3) -10px 10px;
+  }
+
+  .card-4 {
+    transform: rotate(3.5deg) translate(15px, 30px);
+    box-shadow: hsl(219, 29%, 14%, 0.6) -5px 5px,
+      hsl(219, 29%, 14%, 0.3) -10px 10px;
+  }
+
+  .card-5 {
+    transform: rotate(-2.8deg) translate(15px, -65px);
+    box-shadow: hsl(210, 46%, 95%, 0.6) -5px 5px,
+      hsl(210, 46%, 95%, 0.3) -10px 10px;
+  }
+
+  .card-1 p {
+    margin-right: 40px;
+  }
+
+  .card-2 p,
+  .card-5 p {
+    margin-right: 20px;
+  }
+
+  .card-3 p {
+    margin-right: 25px;
+  }
+
+  .card-4 > p {
+    margin-right: 50px;
+  }
+}

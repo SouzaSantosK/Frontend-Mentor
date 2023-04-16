@@ -23,7 +23,6 @@ body {
   justify-content: center;
   background: var(--very-dark-blue);
   color: var(--white);
-  width: 100%;
   min-height: 100vh;
 }
 
