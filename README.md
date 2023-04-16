@@ -14,3 +14,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [3-Column Card Component](./3-Column%20Card%20Component/README.md)
   - [Stats Card Component](./Stats%20Card%20Component/README.md)
   - [Testimonials Grid Section](./Testimonials%20Grid%20Section/README.md)
+  - [Single Price Grid Card Component](./Single%20Price%20Grid%20Card%20Component//README.md)
