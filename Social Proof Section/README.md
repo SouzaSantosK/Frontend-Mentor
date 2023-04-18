@@ -22,7 +22,7 @@ Essa é uma resolução para o [desafio do Social Proof Section do Frontend Ment
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-with-html-and-css-e07RpxQolv)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Social%20Proof%20Section)
 
 ## My process
