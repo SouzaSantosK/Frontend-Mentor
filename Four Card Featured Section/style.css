@@ -106,7 +106,7 @@ header .title {
   border-top-color: var(--blue);
 }
 
-.card h3 {
+.card h2 {
   color: var(--very-dark-blue);
   font-size: 21px;
 }

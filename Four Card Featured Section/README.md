@@ -24,7 +24,7 @@ Essa é uma resolução para o [desafio do Four Card Feature Section](https://ww
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-featured-section-with-html-and-css-H2ubK5v9rq)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Four%20Card%20Featured%20Section)
 
 ## My process
