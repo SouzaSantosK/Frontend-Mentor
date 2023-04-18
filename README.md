@@ -16,3 +16,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [Testimonials Grid Section](./Testimonials%20Grid%20Section/README.md)
   - [Single Price Grid Card Component](./Single%20Price%20Grid%20Card%20Component/README.md)
   - [Fylo Data Storage Component](./Fylo%20Data%20Storage%20Component/README.md)
+  - [Porifle Card Component](./Profile%20Card%20Component/README.md)

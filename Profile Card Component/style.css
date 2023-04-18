@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  transition: all 0.2s ease;
+}
+
+:root {
+  /* Primary Colors */
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* Neutral Colors */
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+h1,
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-cyan);
+  overflow: hidden;
+  padding: 0 25px;
+}
+
+body::before,
+body::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: center no-repeat;
+  background-size: contain;
+  z-index: -1;
+  animation: rotate 3s infinite;
+}
+
+body::before {
+  background-image: url(images/bg-pattern-bottom.svg);
+  bottom: -35%;
+  right: -50%;
+}
+
+body::after {
+  background-image: url(images/bg-pattern-top.svg);
+  top: -35%;
+  right: 50%;
+}
+
+.card {
+  min-width: 325px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 5px,
+    rgba(255, 255, 255, 0.3) 0px 10px;
+  filter: brightness(85%);
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  filter: unset;
+}
+
+.card .user-hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 75px 0 15px;
+  background-image: url(images/bg-pattern-card.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card .user-hero .user-image {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card .user-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid hsl(185, 75%, 39%, 0.4);
+}
+
+.user-infos h1 {
+  color: var(--very-dark-desaturated-blue);
+  font-weight: 700;
+}
+
+.user-infos span {
+  margin-left: 10px;
+}
+
+.user-infos h1 span,
+.card .user-infos p {
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+
+.card .stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
+
+.card .stats h2 {
+  line-height: 30px;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.card .stats p {
+  letter-spacing: 1px;
+  color: var(--dark-grayish-blue);
+}
+
+@media (min-width: 768px) {
+  body::before {
+    bottom: -50%;
+    right: -30%;
+  }
+
+  body::after {
+    top: -50%;
+    right: 30%;
+  }
+
+  .card {
+    min-width: 350px;
+  }
+
+  .card .user-hero {
+    padding: 80px 0 20px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
