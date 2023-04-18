@@ -18,3 +18,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [Fylo Data Storage Component](./Fylo%20Data%20Storage%20Component)
   - [Profile Card Component](./Profile%20Card%20Component)
   - [Social Proof Section](./Social%20Proof%20Section)
+  - [Four Card Featured Section](./Four%20Card%20Featured%20Section/)

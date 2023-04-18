@@ -39,6 +39,8 @@ Aqui você encontrará a minha resolução do desafio do Testimonial Grid Sectio
 - Mobile-first workflow
 - @media-queries (totally responsive)
 
+---
+
 ### What I learned
 
 Nesse desafio aprofundei-me mais em como posicionar elementos usando o grid layout, mais especificamente o **grid-template-columns** o que facilitou muito a fazer a versão desktop da página. Segue o código relacionado ao grid:
@@ -104,6 +106,8 @@ Nesse desafio aprofundei-me mais em como posicionar elementos usando o grid layo
 ```
 
 Levando em consideração as animações com hover, box-shadows, e as margens adicionadas a cada uma das tags "p" que foram adicionados, tornaram o código bem grande, o que me leva ao seguinte...
+
+---
 
 ### Continued development
 
