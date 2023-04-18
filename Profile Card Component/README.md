@@ -23,7 +23,7 @@ Essa é uma resolução para o [Profile card component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-with-html-and-css-xWCZrDfJc2)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Profile%20Card%20Component/)
 
 ## My process
