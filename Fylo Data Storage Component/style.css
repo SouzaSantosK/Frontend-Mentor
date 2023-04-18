@@ -194,7 +194,7 @@ body {
 
   .files-upload {
     width: 400px;
-    animation: push 4s !important;
+    animation: push 4s;
     transform: rotate(-15deg);
   }
 
@@ -202,7 +202,7 @@ body {
     padding: 3.5rem 2rem 2rem;
     width: 600px;
     text-align: left;
-    animation: fall 4s !important;
+    animation: fall 4s;
     transform: rotate(-5deg);
   }
 
@@ -231,34 +231,34 @@ body {
   }
 
   /* This is my first time creating sequential animations where the two animations interact with each other. */
+}
 
-  @keyframes fall {
-    0% {
-      transform: translateY(-500%);
-    }
-    50% {
-      transform: translateY(0);
-    }
-    75% {
-      transform: translateX(30%) rotate(195deg);
-    }
-    100% {
-      transform: translateX(0) rotate(unset);
-    }
+@keyframes fall {
+  0% {
+    transform: translateY(-500%);
   }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateX(30%) rotate(195deg);
+  }
+  100% {
+    transform: translateX(0) rotate(unset);
+  }
+}
 
-  @keyframes push {
-    0% {
-      transform: translateX(-20000rem);
-    }
-    50% {
-      transform: translateX(6%);
-    }
-    75% {
-      transform: translateX(-25%) rotate(-180deg);
-    }
-    100% {
-      transform: translateX(0) rotate(-15deg);
-    }
+@keyframes push {
+  0% {
+    transform: translateX(-20000rem);
+  }
+  50% {
+    transform: translateX(6%);
+  }
+  75% {
+    transform: translateX(-25%) rotate(-180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(-15deg);
   }
 }
