@@ -194,7 +194,7 @@ body {
 
   .files-upload {
     width: 400px;
-    animation: push 4s;
+    animation: push 4s !important;
     transform: rotate(-15deg);
   }
 
@@ -202,7 +202,7 @@ body {
     padding: 3.5rem 2rem 2rem;
     width: 600px;
     text-align: left;
-    animation: fall 4s;
+    animation: fall 4s !important;
     transform: rotate(-5deg);
   }
 
@@ -249,8 +249,7 @@ body {
 
   @keyframes push {
     0% {
-      transform: translateX(-12500rem);
-      pointer-events: none;
+      transform: translateX(-20000rem);
     }
     50% {
       transform: translateX(6%);
