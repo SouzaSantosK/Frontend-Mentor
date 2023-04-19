@@ -7,16 +7,13 @@ Essa é uma resolução para o [desafio do Huddle Landing Page with Single Intro
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,7 +23,7 @@ Essa é uma resolução para o [desafio do Huddle Landing Page with Single Intro
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-single-section-with-html-and-css-9y7Ik4N-jU)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Huddle%20Landing%20Page%20Single%20Section)
 
 ## My process
