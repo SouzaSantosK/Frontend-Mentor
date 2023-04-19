@@ -19,3 +19,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [Profile Card Component](./Profile%20Card%20Component)
   - [Social Proof Section](./Social%20Proof%20Section)
   - [Four Card Featured Section](./Four%20Card%20Featured%20Section/)
+  - [Huddle Landing Page Single Section](./Huddle%20Landing%20Page%20Single%20Section/)
