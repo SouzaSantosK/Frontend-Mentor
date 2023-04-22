@@ -2,6 +2,8 @@
 
 Essa é uma resolução para o [desafio do Fylo landing page with Two Column Layout do Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de código, baseado na criação de projetos realistas.
 
+## [📃💻 Website view 🖱🖥](https://souzasantosk.github.io/Frontend-Mentor/Fylo%20Landing%20Page%20Two%20Columns%20Layout/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,8 +26,8 @@ _OBS: Não deu pra fazer print da tela inteira, por isso as imagens estão corta
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
-- Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Fylo%20Landing%20Page%20Two%20Columns%20Layout)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-landing-page-two-columns-html-and-css-TSH2mqDh3S)
+- Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Fylo%20Landing%20Page%20Two%20Columns%20Layout/)
 
 ## My process
 
