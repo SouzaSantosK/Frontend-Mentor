@@ -20,3 +20,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [Social Proof Section](./Social%20Proof%20Section)
   - [Four Card Featured Section](./Four%20Card%20Featured%20Section/)
   - [Huddle Landing Page Single Section](./Huddle%20Landing%20Page%20Single%20Section/)
+  - [Fylo Landing Page Two Columns Layout](./Fylo%20Landing%20Page%20Two%20Columns%20Layout/)

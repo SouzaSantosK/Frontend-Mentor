@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="flex align-center">
+        <img src="images/logo.svg" alt="Fylo logo" class="logo" />
+        <ul class="flex">
+          <li><a href="#">Features</a></li>
+          <li><a href>Team</a></li>
+          <li><a href>Sign In</a></li>
+        </ul>
+      </header>
+
+      <section class="top flex flex-column">
+        <img src="images/illustration-1.svg" alt="" class="illustration" />
+        <div class="text-content flex flex-column">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+          <p>
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <div class="form-top flex flex-column">
+            <span>
+              <input
+                type="email"
+                required
+                maxlength="25"
+                placeholder="Enter your email..."
+            /></span>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="middle flex flex-column align-center">
+        <img src="images/illustration-2.svg" alt="" class="illustration" />
+        <div class="text-content flex flex-column">
+          <h2>Stay productive, wherever you are</h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <span class="flex align-center">
+            See how Fylo works
+            <img src="images/icon-arrow.svg" alt="" aria-label="" />
+          </span>
+          <div class="testimonial">
+            <img src="images/icon-quotes.svg" alt="" class="min-content" />
+            <p>
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="author flex align-center">
+              <img src="images/avatar-testimonial.jpg" alt="" />
+              <div class="flex flex-column">
+                <span class="name">Kyle Burton</span>
+                <span class="company">Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom flex flex-column align-center p-tb-80">
+        <div class="text-content flex flex-column">
+          <h3>Get early access today</h3>
+          <p>
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <div class="form-bottom flex flex-column">
+          <input
+            type="text"
+            required
+            maxlength="25"
+            placeholder="Enter your email..."
+          />
+          <button>Get Started For Free</button>
+        </div>
+      </section>
+
+      <footer>
+        <img src="images/logo-white.svg" alt="" class="min-content" />
+        <div class="informations flex flex-column">
+          <div class="links flex flex-column">
+            <div>
+              <div class="phone flex align-center">
+                <img src="images/icon-phone.svg" alt="" class="min-content" />
+                <p>Phone: +1-543-123-4567</p>
+              </div>
+              <div class="email flex align-center">
+                <img src="images/icon-email.svg" alt="" class="min-content" />
+                <p>example@fylo.com</p>
+              </div>
+            </div>
+            <ul class="flex flex-column">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+            <ul class="flex flex-column">
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="socials flex justify-center">
+            <span
+              class="fa-brands fa-facebook-f justify-center align-center"
+            ></span>
+            <span
+              class="fa-brands fa-twitter justify-center align-center"
+            ></span>
+            <span
+              class="fa-brands fa-instagram justify-center align-center"
+            ></span>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/25fee3ea99.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
