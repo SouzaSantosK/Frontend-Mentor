@@ -54,6 +54,7 @@ main {
 }
 
 section,
+figure,
 footer {
   justify-content: center;
   align-items: center;
@@ -165,7 +166,7 @@ body {
   margin: 2.5rem 0 1.25rem; /* 40px 0 20px */
 }
 
-/* Brands Section */
+/* Brands Figure */
 
 .brands {
   gap: 5rem; /* 80px */
@@ -233,6 +234,10 @@ footer {
     gap: 0.9375rem; /* 15px */
   }
 
+  button {
+    width: 13.75rem; /* 220px */
+  }
+
   .responsive-flex {
     flex-direction: row;
   }
@@ -272,7 +277,7 @@ footer {
     margin-top: 1.9375rem; /* 31px */
   }
 
-  /* Brands Section */
+  /* Brands Figure */
 
   .brands {
     flex-wrap: wrap;
@@ -315,7 +320,8 @@ footer {
 }
 
 @media screen and (min-width: 1440px /* 1440px */) {
-  section {
+  section,
+  figure {
     padding: 0;
   }
 
