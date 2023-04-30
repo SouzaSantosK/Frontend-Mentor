@@ -21,3 +21,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   - [Four Card Featured Section](./Four%20Card%20Featured%20Section/)
   - [Huddle Landing Page Single Section](./Huddle%20Landing%20Page%20Single%20Section/)
   - [Fylo Landing Page Two Columns Layout](./Fylo%20Landing%20Page%20Two%20Columns%20Layout/)
+  - [Clipboard Landing Page](./Clipboard%20Landing%20Page/)
