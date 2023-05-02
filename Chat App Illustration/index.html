@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Chat App Illustration</title>
+  </head>
+
+  <body class="flex align-center">
+    <main class="flex align-center">
+      <div class="cellphone flex-column align-center">
+        <div class="app-header flex align-center">
+          <div class="user flex align-center">
+            <span class="material-symbols-outlined"> chevron_left </span>
+            <img
+              src="images/avatar.jpg"
+              alt="User profile-image"
+              class="user-avatar"
+            />
+            <div>
+              <p class="user-name">Samuel Green</p>
+              <p class="user-status">Available to Walk</p>
+            </div>
+          </div>
+          <span class="material-symbols-outlined"> more_vert </span>
+        </div>
+        <div class="chat flex-column">
+          <div class="left-box">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
+
+          <div class="left-box">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+
+          <div class="right-user flex-column">
+            <picture class="flex">
+              <img src="images/dog-image-1.jpg" alt="Dog image 1" />
+              <img src="images/dog-image-2.jpg" alt="Dog image 2" />
+              <img src="images/dog-image-3.jpg" alt="Dog image 3" />
+            </picture>
+            <div class="right-box">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="right-box">
+              <p>Can you make it?</p>
+            </div>
+          </div>
+
+          <div class="left-box">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+
+          <label class="option flex align-center">
+            <div class="flex align-center">
+              <input type="radio" name="option" />
+              <p>30 minute walk</p>
+            </div>
+            <span>$29</span>
+          </label>
+
+          <label class="option flex align-center">
+            <div class="flex align-center">
+              <input type="radio" name="option" />
+              <p>1 hour walk</p>
+            </div>
+            <span>$49</span>
+          </label>
+
+          <div class="text-input flex align-center">
+            <input type="text" placeholder="Type a Message..." />
+            <button class="material-symbols-outlined">chevron_right</button>
+          </div>
+        </div>
+      </div>
+
+      <article class="flex-column">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
