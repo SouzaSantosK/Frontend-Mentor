@@ -24,7 +24,7 @@ Essa é uma resolução para o [desafio do Chat app CSS illustration do Frontend
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/chat-app-illustration-html-and-css-4sz7CFnpfQ)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Chat%20App%20Illustration)
 
 ## My process
