@@ -12,7 +12,9 @@ Essa é uma resolução para o [desafio do Chat app CSS illustration do Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -37,6 +39,10 @@ Essa é uma resolução para o [desafio do Chat app CSS illustration do Frontend
 ### What I learned
 
 Desafio de certa forma simples, serviu mais de treino para a criação de objetos complexos com HTML e CSS, nesse caso, a tela de um celular. Aproveitei para tentar resolver esse desafio mais rápido e ter uma ideia do tempo médio que deveria ser gasto em projetos dessa escala.
+
+### Useful Resources
+
+[CSS-Tricks Inputs e Labels](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - Explica a relação entre inputs e labels, e como isso melhora a acessibilidade.
 
 ## Author
 

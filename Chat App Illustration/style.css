@@ -215,26 +215,45 @@ input[type="radio"]:checked {
   color: var(--white);
 }
 
-.text-input {
+.message-area {
   background: var(--white);
   justify-content: space-between;
   border-radius: 50px;
   color: var(--very-dark-desaturated-violet);
-  padding: 0 5px;
+  padding-right: 5px;
+  position: relative;
   margin-top: 10px;
+  font-size: 12px;
+  gap: 5px;
 }
 
 input[type="text"] {
   height: 40px;
   border-radius: inherit;
-  width: 80%;
-  padding-left: 15px;
-  font-size: 12px;
-  border: 1px solid transparent;
+  width: 90%;
+  padding: 0 15px;
+  border: 2px solid transparent;
   transition: 0.1s ease;
+  outline: none;
 }
 
-.text-input button {
+input[type="text"]:focus {
+  border-color: var(--light-magenta);
+}
+
+input[type="text"]:focus ~ label {
+  display: none;
+}
+
+.message-area label {
+  position: absolute;
+  padding: 0 18px;
+  pointer-events: none;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.message-area button {
   background: var(--very-dark-desaturated-violet);
   color: white;
   border-radius: 50%;
@@ -244,7 +263,7 @@ input[type="text"] {
   transition: 0.3s ease;
 }
 
-.text-input button:hover {
+.message-area button:hover {
   background: var(--light-violet);
 }
 
