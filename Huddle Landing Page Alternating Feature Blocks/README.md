@@ -21,7 +21,7 @@ Essa é uma resolução para o [desafio do Huddle landing page with alternating 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-alternate-feature-blocks-yjMhp_phyc)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/Huddle%20Landing%20Page%20Alternating%20Feature%20Blocks)
 
 ## My process

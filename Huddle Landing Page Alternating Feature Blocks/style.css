@@ -74,7 +74,7 @@ button {
 
 body {
   min-height: 100vh;
-  color: var(--very-pale-cyan);
+  color: var(--very-dark-cyan);
 }
 
 main {
@@ -99,7 +99,7 @@ header {
   max-width: 40.625rem;
 }
 
-header img {
+.logo {
   width: 7.8125rem;
 }
 
@@ -211,10 +211,6 @@ footer .container {
   align-items: flex-start;
 }
 
-footer .container > img {
-  width: 10rem;
-}
-
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -288,6 +284,10 @@ footer .container > img {
   header {
     max-width: 90rem;
     padding: 0 5rem;
+  }
+
+  .logo {
+    width: 250px;
   }
 
   .container {
