@@ -23,7 +23,7 @@ Essa é uma resolução para o desafio [FAQ accordion card challenge on Frontend
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordion-card-Vp3rP5AQeF)
 - Live Site URL: [Github pages](https://souzasantosk.github.io/Frontend-Mentor/FAQ%20Accordion%20Card)
 
 ## My process
@@ -41,5 +41,3 @@ Essa é uma resolução para o desafio [FAQ accordion card challenge on Frontend
 
 - Github - [@SantosSouzaK](https://github.com/SouzaSantosK)
 - Frontend Mentor - [@Kaua de Souza](https://www.frontendmentor.io/profile/SouzaSantosK)
-
-
