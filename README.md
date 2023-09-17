@@ -25,3 +25,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
 17. [Huddle Landing Page Alternating Feature Blocks](./Huddle%20Landing%20Page%20Alternating%20Feature%20Blocks/)
 18. [Article Preview Component](./Article%20Preview%20Component/)
 19. [FAQ Accordion Card](./FAQ%20Accordion%20Card/)
+20. [Interactive Rating Component](./Interactive%20Rating%20Component/)

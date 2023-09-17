@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  /* Primary */
+  --orange: #fb7413;
+
+  /* Neutral */
+  --white: #ffffff;
+  --light-grey: #959eac;
+  --medium-grey: #7c8798;
+  --dark-blue: #252d37;
+  --very-dark-blue: #121417;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s ease;
+  user-select: none;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: var(--very-dark-blue);
+  color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 15px;
+  padding: 15px;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 25px;
+}
+
+p {
+  line-height: 25px;
+}
+
+.card {
+  max-width: 375px;
+  background: rgb(27, 31, 36);
+  background: linear-gradient(
+    360deg,
+    rgba(25, 29, 36, 255) 0%,
+    rgba(35, 42, 50, 255) 100%
+  );
+  padding: 25px 25px 35px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 15px;
+}
+
+.star-icon {
+  background: var(--dark-blue);
+  padding: 12px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+form input {
+  display: none;
+}
+
+.rate-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate-list label {
+  background: var(--dark-blue);
+  color: var(--medium-grey);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rate-list label:nth-of-type(even):hover {
+  background: var(--medium-grey);
+}
+
+.rate-list label:nth-of-type(odd):hover {
+  background: var(--orange);
+}
+
+.rate-list label:hover {
+  color: var(--white);
+}
+
+.rate-list input[type="radio"]:checked + label:nth-of-type(even) {
+  background: var(--medium-grey);
+  color: var(--white);
+}
+
+.rate-list input[type="radio"]:checked + label:nth-of-type(odd) {
+  background: var(--orange);
+  color: var(--white);
+}
+
+form button {
+  all: unset;
+  width: 100%;
+  background: var(--orange);
+  text-transform: uppercase;
+  color: var(--white);
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 13px 0;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: inherit;
+}
+
+form button:hover {
+  background: var(--white);
+  color: var(--orange);
+}
+
+/* Thanks card */
+
+.thanks-card {
+  display: none;
+  opacity: 0;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanks-card .result {
+  margin: 10px 0;
+  width: fit-content;
+  color: var(--orange);
+  background: var(--dark-blue);
+  padding: 2px 10px;
+  border-radius: 50px;
+}
