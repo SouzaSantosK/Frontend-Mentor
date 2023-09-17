@@ -24,3 +24,4 @@ Todos os desafios aqui postados nem sempre estarão em sua versão final, podend
   15. [Clipboard Landing Page](./Clipboard%20Landing%20Page/)
   16. [Chat App Illustration](./Chat%20App%20Illustration/)
   17. [Huddle Landing Page Alternating Feature Blocks](./Huddle%20Landing%20Page%20Alternating%20Feature%20Blocks/)
+  18. [Article Preview Component](./Article%20Preview%20Component/)
